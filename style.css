@@ -1,0 +1,368 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+.MainBoxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 2rem;
+
+}
+.box-item{
+    width: 25rem;
+    border-radius: 1rem;
+    height: 25rem;
+    background-color: rgba(246, 245, 245, 0.936);
+    
+}
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+    gap: 1rem;
+}
+.bonus-box{
+    height: 3rem;
+    width: 10rem;
+    border-radius: 0.2rem;
+     display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: auto;
+    margin: -0.5rem;
+    background-color: black;
+
+}
+.bonus-box span{
+    color: orangered;
+    font-size: 1.5rem;
+    font-weight: 600;
+    
+}
+.worth-box span{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    color: rgba(0, 0, 0, 0.569);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.img1 img{
+    padding: 1rem;
+    height: 10rem;
+    background-color:  rgba(246, 245, 245, 0.936);
+    
+}
+
+.info{
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.worth-box{
+    height: 4rem;
+    width: 12rem;
+    background-color: white;
+    border-radius: 0.4rem;
+    border: 0.2rem solid black;
+    
+}
+
+.worth-rs {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: 2rem 5rem;
+}
+.take-action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-btn{
+    height: 4rem;
+    width: 30rem;
+    background-color: rgb(255, 136, 0);
+    border-radius: 0.5rem;
+
+}
+.action-btn span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+}
+.rs{
+    font-size: 1.1rem;
+    font-weight:300;
+    text-decoration: line-through;
+}
+.five-star{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+.five-star i{
+    height:0rem;
+    width: 4rem;
+    color: rgb(255, 221, 0);
+
+}
+
+.chips-packet{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.packet{
+    height: 5.5rem;
+    width: 26rem;
+    background-color: #ff6d07;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #f5f5f5;
+    border-radius: 0.3rem;
+    animation: shake 1s alternate;
+}
+
+.change-size{
+    font-size: 1rem;
+    
+}
+
+.unlock-bonus{
+    text-align: center;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 1.4rem;
+
+}
+.zig-zag{
+   margin-top: 3rem;
+}
+.cont2{
+    background-color: rgb(1, 1, 13);
+    height: auto;
+    width: 100%;
+    color: white;
+}
+.get{
+    color: white;
+    font-weight: 600;
+    font-size: 2rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+.expert{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.expert{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.trainers{
+    color: #ff6d07;
+}
+.cert-image img{
+    height: 47rem;
+    width: 65rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 2rem;
+}
+
+.take-action2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-btn2{
+    height: 4rem;
+    width: 40rem;
+    background-color: rgb(255, 136, 0);
+    border-radius: 0.5rem;
+
+}
+.action-btn2 span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+}
+.cert img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background: none;
+    padding-bottom: 2rem;
+}
+.cont3{
+    background-color: white;
+    height: auto;
+    
+}
+.mentor span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.mentor-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    
+}
+.first-mentor img{
+    height: 35rem;
+    width: 40rem;
+}
+.f-mentor-info b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    text-align: start;
+    font-weight: 600;
+    
+
+}
+.info{
+    font-size: 1rem;
+    font-weight: 200;
+    color: gray;
+
+}
+.name{
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.732);
+}
+.ment{
+    margin: 2rem;
+    font-size: 1.2rem;
+    color: grey;
+    padding-bottom: 2rem;
+}
+
+.cont4{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    padding-bottom: 1rem;
+}
+.company b{
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.company-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.company-logo img{
+    height: 10rem;
+    width: 10rem;
+    background-color: white;
+}
+
+@media  screen and (min-width:349px) and (max-width:750px){
+
+    
+.MainBoxes{
+    flex-direction: column;
+    gap: 1.5rem;
+
+}
+.box-item{
+    width: 35rem;
+    height: 13rem;
+    border-radius: 0.4rem;
+}
+.items{
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.bonus-box{
+    height: 3rem;
+    width: 12rem;
+}
+.worth-box span{
+    margin: 0.4rem;
+    color: rgba(0, 0, 0, 0.569);
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin:0.8rem
+}
+.bonus-box span{
+    font-size: 1.2rem;
+    font-weight: 600;
+    
+}
+
+.img1 img{
+    padding: 0.5rem;
+    height: 3rem; 
+}
+
+.info{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.worth-box{
+    height: 3rem;
+    width: 12rem;
+    border-radius: 0.4rem;
+    border: 0.1rem solid black;
+    
+}
+}
